@@ -26,6 +26,8 @@ module "azure_flow_logs_storage_accounts" {
       resource_group_name = "flowlogstest"
     } 
   ]
+
+  # Test with additional account and storage accounts
   # storage_accounts = [
   #   {
   #     name                = "flowlogs3z4febpq2olsk"
