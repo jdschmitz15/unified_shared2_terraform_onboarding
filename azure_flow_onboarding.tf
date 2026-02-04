@@ -15,7 +15,7 @@ module "azure_flow_logs_storage_accounts" {
     },
     {
       name                = "illumiosad1b6bfeastus"
-      resource_group_name = "resourcegroup_westus"
+      resource_group_name = "resourcegroup_eastus"
     },
     {
       name                = "flowlogsadiv2"
