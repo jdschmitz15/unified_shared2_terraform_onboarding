@@ -5,10 +5,11 @@ module "aws_flow_logs_s3_buckets" {
   role_id        = module.aws_account_onboarding.role_id
   iam_name_prefix       = "${var.regional_demo_name}${random_id.random_id.hex}"
 
+  # s3_bucket_arns = [
+  #   "arn:aws:s3:::us-east-1-211125710713",
+  # ]
   s3_bucket_arns = [
-    "arn:aws:s3:::us-east-1-211125710713",
   ]
-
 
   # Testing with multiple another account with different S3 buckets
   # s3_bucket_arns = [

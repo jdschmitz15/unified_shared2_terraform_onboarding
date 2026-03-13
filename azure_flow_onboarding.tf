@@ -10,6 +10,7 @@ module "azure_flow_logs_storage_accounts" {
       resource_group_name = "trafficgen"
     } 
   ]
+  
 # This is the original list of storage accounts.  These will all be deleted.
 # storage_accounts = [
 #     {
