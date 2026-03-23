@@ -43,6 +43,16 @@ provider "azurerm" {
  subscription_id = var.azure_subscription_id
 }
 
+provider "azurerm" {
+  alias = "instances"
+  features {
+    resource_group {
+      prevent_deletion_if_contains_resources = false
+    }
+  }
+ subscription_id = var.azure_subscription_id_instances
+}
+
 # # Generate random text for a unique storage account name
 resource "random_id" "random_id" {
 
