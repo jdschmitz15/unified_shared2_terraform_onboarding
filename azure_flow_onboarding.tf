@@ -8,6 +8,18 @@ module "azure_flow_logs_storage_accounts" {
     {
       name                = "trafficgenadi"
       resource_group_name = "trafficgen"
+    },
+    {
+      name                = "illumiosa893da8westus"
+      resource_group_name = "llumioresourcegroup_westus"
+    }, 
+    {
+      name                = "azfwdemonsgflowlogs"
+      resource_group_name = "rg-azfw1"
+    },
+    {
+      name                = "cloudsecurez7jc5babptjvo"
+      resource_group_name = "rg-azfw1"
     } 
   ]
   

@@ -17,7 +17,7 @@ module "azure_subscription_onboarding" {
     azurerm = azurerm.instances
   }
 
-  name                   = "Azure Instances Unified-Shared2[ Do not delete ]"
+  name                   = "Azure Instances Insights Unified-Shared2[ Do not delete ]"
   iam_name_prefix       = "${var.regional_demo_name}${random_id.random_id.hex}"
   mode                   = "Read"
   tags    = [
